@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="./images/logo.png" alt="" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+          <div class="songImg"><img src="./images/songImage.jpg" alt="" /> </div>
+          <div class="songName">Dancin</div>
+          <span class="songTime"
+            >3.18
+            <i id="0" class="far songItemPlay fa-play-circle"></i>
+          </span>
+          </div>
+          <div class="songList">
+          <div class="songImg"><img src="./images/songImage.jpg" alt="" /> </div>
+          <div class="songName">One Dance</div>
+          <span class="songTime"
+            >3:35
+            <i id="1" class="far songItemPlay fa-play-circle"></i>
+          </span>
+          </div>
+          <div class="songList">
+          <div class="songImg"><img src="./images/songImage.jpg" alt="" /> </div>
+          <div class="songName">Shinunoga E-Wa</div>
+          <span class="songTime"
+            >3:11
+            <i id="2" class="far songItemPlay fa-play-circle"></i>
+          </span>
+          </div>
+          <div class="songList">
+          <div class="songImg"><img src="./images/songImage.jpg" alt="" /> </div>
+          <div class="songName">I Wanna Be Yours</div>
+          <span class="songTime"
+            >3:03
+            <i id="3" class="far songItemPlay fa-play-circle"></i>
+          </span>
+          </div>
+          <div class="songList">
+          <div class="songImg"><img src="./images/songImage.jpg" alt="" /> </div>
+          <div class="songName">Life Goes On</div>
+          <span class="songTime"
+            >3:27
+            <i id="4" class="far songItemPlay fa-play-circle"></i>
+          </span>
+          </div>
+    
+        <div class="songBanner"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="icon">
+        <img src="./images/1.jpg" alt="" id="playSongImg"> 
+        <span id="masterSongName">Dancin</span>
+        <i class="fas fa-2x fa-step-backward"id="previous"></i>
+        <i class="far fa-2x fa-play-circle"id="play"></i>
+        <i class="fas fa-2x fa-step-forward"id="next"></i>
+        <img src="./images/music.gif" alt="" id="musicGif">
+      </div>
+      <h6 class="singerName">Spotify</h6>
+      <input type="range" name="range" min="0" max="100" value="0" id="myProgressbar" />
+    </div>
+    <script
+      src="https://kit.fontawesome.com/227b3ed1d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./spotify.js"></script>
+  </body>
+</html>
